@@ -1,0 +1,18 @@
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color:blue;
+}
+
+.cart span:nth-child(2){
+    padding: o 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+}
+#home{
+    font-size: 2rem;
+    color:blue;
+}

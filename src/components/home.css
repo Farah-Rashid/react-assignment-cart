@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  section{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: grid ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto; 
+  }
+  .cards {
+    width: 250px;
+    padding: 20px;
+  }
+  .cards:hover {
+   cursor: pointer;
+  }
+  .image_box img {
+    width: 150px;
+    height: 200px;
+  }
+  p{
+      font-weight: bold;
+  }
+  
+  .details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+    cursor:pointer;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight: 600;
+  }
